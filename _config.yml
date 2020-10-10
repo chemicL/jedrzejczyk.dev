@@ -19,7 +19,7 @@ header_pages:
 style: dark
 listen_for_clients_preferred_style: true
 
-footer: 'find me on <a href="https://github.com/chemicL">github</a> or <a href="https://twitter.com/chemicL">twitter</a>.'
+footer: 'find me on <a href="https://github.com/chemicL">github</a>, <a href="https://twitter.com/chemicL">twitter</a> or <a href="https://www.linkedin.com/in/dariuszjedrzejczyk/">linkedin</a>.'
 
 kramdown:
   hard_wrap: false
