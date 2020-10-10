@@ -5,6 +5,8 @@ navtitle: /about
 permalink: /about/
 ---
 
+<div style="text-align:center"><img src="/assets/img/about_photo.jpg" alt="picture of the author" style="height: 200px; width:200px; border-radius:100px"/></div>
+
 # about
 
 Hi, my name is Dariusz Jędrzejczyk. I enjoy writing code and I am currently building an internal PaaS at [allegro.pl][allegro-pl].
