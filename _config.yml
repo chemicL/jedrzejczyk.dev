@@ -1,10 +1,8 @@
 title: jedrzejczyk.dev
-description: >- # this means to ignore newlines until "baseurl:"
-  Dariusz Jędrzejczyk's blog. Software engineering, coding and programming notes.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://jedrzejczyk.dev" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: chemicL
-github_username: chemicL 
+description: >-
+  Dariusz Jędrzejczyk notes on software engineering, coding and programming.
+baseurl: ""
+url: "https://jedrzejczyk.dev"
 
 # Build settings
 theme: jekyll-theme-console
@@ -15,6 +13,7 @@ plugins:
 # theme-specific settings
 header_pages:
   - index.md
+  - talks.md
   - about.md
 
 style: dark
@@ -24,23 +23,3 @@ footer: 'find me on <a href="https://github.com/chemicL">github</a> or <a href="
 
 kramdown:
   hard_wrap: false
-
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
